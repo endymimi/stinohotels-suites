@@ -96,7 +96,7 @@ const Nav = () => {
                                 <p className="text-lg text-gray-200 cursor-pointer hover:text-[#E17245] transition-colors py-2 border-b border-gray-200">
                                     About us
                                 </p></NavLink>
-                                <NavLink to='/About'>
+                                <NavLink to='/RoomsFeatures'>
                                 <p className="text-lg text-gray-200 cursor-pointer hover:text-[#E17245] transition-colors py-2 border-b border-gray-200">
                                     Rooms
                                 </p>

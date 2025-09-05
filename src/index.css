@@ -75,6 +75,28 @@ p{
 }
 }
 
+.about_hero{
+   background-image: url("../src/image/image\ 303.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+   padding-left: 2rem;
+  padding-right: 2rem;
+    
+}
+
+@media (width > 970px) {
+.about_hero {
+  background-image: url('../src/image/image\ 303.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
