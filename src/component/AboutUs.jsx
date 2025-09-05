@@ -29,7 +29,7 @@ const AboutUs = () => {
                     <p className="text-[20px] font-normal xl:w-[57%] text-[#4A2E24]">At Stino Hotels and Suites, modern design meets warm hospitality. Whether you're here for business or a weekend escape, we offer a stylish, comfortable stay that feels just like home.</p>
                 </div>
                 </div>
-                <NavLink to='/AboutUs'>
+                <NavLink to='/About'>
                  <div>
                         <button className=" text-[16px] cursor-pointer font-semibold bg-[#E17245] px-[16px] py-[20px] rounded-[16px] shadow-xl text-white"> Learn More</button>
                     </div>

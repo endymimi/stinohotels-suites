@@ -1,8 +1,9 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import bgimage from "../assets/roomfeatureshero.jpg";
 import navlogo from "../image/Logo (2).svg";
 import arrowleft2 from "../image/Vector (1).svg";
+import RoomHero from "../component/RoomHero";
+import Property from "../component/Property";
 import Footer from "../layout/Footer";
 
 
@@ -15,10 +16,10 @@ const RoomsFeatures = () => {
 
   return (
     <>
-      <main
-        style={{ backgroundImage: `url(${bgimage})` }}
-        className="overflow-x-hidden text-white bg-cover bg-center min-h-screen relative "
+      <main className="overflow-x-hidden text-white bg-cover bg-center min-h-screen relative "
       >
+          <RoomHero/>
+
         <nav className=" w-11/12 container flex  xl:text-[20px]  left-0 right-0 justify-between mx-auto  bg-transparent py-[34px] shadow-2xl fixed top-0">
           <NavLink to="/">
             <img className="w-auto" src={navlogo} alt="" />
@@ -52,18 +53,11 @@ const RoomsFeatures = () => {
           </div>
         </nav>
 
-        <div className="">
-          <h1 className=" left-120 top-70 absolute  playfair-display font-bold items-center text-[70px] ">
-            Rooms & Suites
-          </h1>
-          <p className=" left-128 top-90 absolute  courgette-regular text-[22px] font-normal p-2">
-            "Explore our rooms and experience comfort"
-          </p>
-        </div>
+        
       </main>
 
       <section></section>
-      
+       <Property/>
 
       <Footer />
     </>

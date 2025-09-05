@@ -26,10 +26,10 @@ const Nav = () => {
   return (
     <>
        <div className="w-full fixed top-0 left-0 right-0 z-10 bg-transparent shadow-2xl">
-        <div className="w-[94%] container mx-auto flex justify-between py-[34px] items-center">
+        <div className="w-[90%] container mx-auto flex justify-between py-[34px] items-center">
             <NavLink
             to="/">
-                <div className="w-auto flex gap-2 text-white items-center text-[23px] font-bold">
+                <div className="">
             <img alt="vector" src={logo} />
             </div>
           </NavLink>
@@ -58,7 +58,7 @@ const Nav = () => {
 
           {/* Desktop Button */}
           <div className="hidden lg:flex xl:text-[20px] items-center gap-[34px] text-white">
-            <button className="text-[16px] font-semibold cursor-not-allowed bg-[#E17245] px-[16px] py-[20px] rounded-[16px] shadow-xl text-white hover:bg-white hover:text-black transition-colors">
+            <button className="text-[16px] font-semibold cursor-not-allowed bg-[#E17245] px-[16px] py-[10px] rounded-[16px] shadow-xl text-white hover:bg-white hover:text-black transition-colors">
               Book Now
             </button>
           </div>
