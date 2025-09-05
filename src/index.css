@@ -35,9 +35,21 @@ p{
   background-image: url("../src/assets/homepage-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+   padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (width > 970px) {
+.hero {
+  background-image: url('../src/assets/homepage-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 15rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
 }
 
 /* :root {
