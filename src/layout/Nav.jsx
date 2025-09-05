@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../image/Logo (2).svg";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -11,8 +11,7 @@ const Nav = () => {
     setIsMenuOpen(!isMenuOpen);
   };
     
-  const navigate = useNavigate();
-  navigate("/RoomsFeatures");
+ 
      
 
    const navLinkClass =

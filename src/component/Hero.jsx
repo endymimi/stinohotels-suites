@@ -15,8 +15,8 @@ const Hero = () => {
               away from home."
             </p>
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-between gap-[16px] mt-8 bg-white  py-[20px] md:px-[30px] lg:py-[41px] lg:px-[55px]">
-            <div className="flex items-center justify-center  gap-3   lg:border-r px-2">
+          <div className="flex flex-col md:flex-row justify-between gap-[16px]  mt-8 bg-white py-[20px] md:px-[30px] lg:py-[41px] lg:px-[55px]">
+            <div className="flex items-center justify-center  gap-3   lg:border-r px-">
               <div className="flex flex-col  pr-8">
                 <h6 className="font-semibold text-[20px]">Check In</h6>
                 <h6 className="text-sm font-extralight">Enter Date</h6>

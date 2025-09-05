@@ -8,6 +8,9 @@ import Footer from "../layout/Footer";
 import OfferPage from "../component/OfferPage";
 
 const About = () => {
+  
+  
+  
   const navLinkClass = "cursor-pointer transition-colors duration-200";
   const getNavLinkClass = ({ isActive }) =>
     isActive
