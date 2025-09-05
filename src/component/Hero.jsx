@@ -25,16 +25,16 @@ const Hero = () => {
                 <img className=" " alt="vector" src={calender} />
               </span>
             </div>
-            <div className="flex items-center gap-3  lg:border-r   px-2">
-              <div className="flex flex-col  xl:pr-8">
-                <h6 className="font-semibold lg:text-[20px]">Check In</h6>
+            <div className="flex items-center  justify-center gap-3  lg:border-r   px-2">
+              <div className="flex flex-col  xl:pr-10">
+                <h6 className="font-semibold text-[20px]">Check Out</h6>
                 <h6 className="text-sm font-extralight">Enter Date</h6>
               </div>
               <span>
                 <img className=" " alt="vector" src={calender} />
               </span>
             </div>
-            <div className="flex items-center gap-3  lg:border-r  px-2 text-black">
+            <div className="flex items-center justify-center gap-3  lg:border-r  px-2 text-black">
               <div className="flex flex-col pr-8">
                 <h6 className="font-semibold text-[20px]">Room</h6>
                 <h6 className="text-sm font-extralight">Select Room</h6>
@@ -43,7 +43,7 @@ const Hero = () => {
                 <img className=" " alt="vector" src={calender} />
               </span>
             </div>
-            <div className="">
+            <div className="flex justify-center">
               <button className=" text-[16px] font-semibold bg-[#E17245] px-[16px] py-[20px] rounded-[16px] shadow-xl text-white">
                 Check Availabilit
               </button>

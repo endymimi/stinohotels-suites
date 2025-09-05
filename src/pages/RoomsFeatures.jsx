@@ -56,7 +56,7 @@ const RoomsFeatures = () => {
         
       </main>
 
-      <section></section>
+      
        <Property/>
 
       <Footer />
